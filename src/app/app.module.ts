@@ -11,6 +11,7 @@ import { UtlisateurComponent } from './utlisateur/utlisateur.component';
 import { AccueilComponent } from './accueil/accueil.component';
 import { CardsComponent } from './cards/cards.component';
 import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
     UtlisateurComponent,
     AccueilComponent,
     CardsComponent,
-    FourOhFourComponent
+    FourOhFourComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
