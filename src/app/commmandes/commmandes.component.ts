@@ -10,7 +10,7 @@ export class CommmandesComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    let TC = "commandes";
+    const TC = "commandes";
   }
 
 }
