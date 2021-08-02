@@ -10,6 +10,7 @@ export class UtlisateurComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    let TC = "utilisateurs";
   }
 
 }

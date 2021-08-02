@@ -12,6 +12,8 @@ import { AccueilComponent } from './accueil/accueil.component';
 import { CardsComponent } from './cards/cards.component';
 import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
 import { HeaderComponent } from './header/header.component';
+import { GraphicComponent } from './graphic/graphic.component';
+import { TableComponent } from './table/table.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { HeaderComponent } from './header/header.component';
     AccueilComponent,
     CardsComponent,
     FourOhFourComponent,
-    HeaderComponent
+    HeaderComponent,
+    GraphicComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,

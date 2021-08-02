@@ -10,6 +10,7 @@ export class CardsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    let TC = "commandes";
   }
 
 }

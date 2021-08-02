@@ -10,6 +10,7 @@ export class VentesComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    let TC = "ventes";
   }
 
 }
