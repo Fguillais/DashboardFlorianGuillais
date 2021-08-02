@@ -8,6 +8,7 @@ import { VentesComponent } from './ventes/ventes.component';
 import { CommmandesComponent } from './commmandes/commmandes.component';
 import { PanierComponent } from './panier/panier.component';
 import { UtlisateurComponent } from './utlisateur/utlisateur.component';
+import { AccueilComponent } from './accueil/accueil.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { UtlisateurComponent } from './utlisateur/utlisateur.component';
     VentesComponent,
     CommmandesComponent,
     PanierComponent,
-    UtlisateurComponent
+    UtlisateurComponent,
+    AccueilComponent
   ],
   imports: [
     BrowserModule,
